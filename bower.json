@@ -1,0 +1,20 @@
+{
+  "name": "github-purescript-redis-leader",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "output"
+  ],
+  "dependencies": {
+    "purescript-prelude": "3.3.0",
+    "purescript-console": "3.0.0",
+    "purescript-redis": "https://github.com/juspay/purescript-redis.git",
+    "purescript-uuid": "4.0.0",
+    "purescript-js-timers": "3.0.0"
+  },
+  "devDependencies": {
+    "purescript-psci-support": "3.0.0",
+    "purescript-debug": "3.0.0"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "name": "purescript-redis-leader",
+  "version": "0.0.1",
+  "description": "Redis leader election",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamnewspecies/purescript-redis-leader.git"
+  },
+  "keywords": [
+    "redis",
+    "leader",
+    "Purescript",
+    "wrapper"
+  ],
+  "author": "iamnewspecies",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iamnewspecies/purescript-redis-leader/issues"
+  },
+  "homepage": "https://github.com/iamnewspecies/purescript-redis-leader#readme",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "cls-bluebird": "^2.1.0",
+    "cls-hooked": "^4.2.2",
+    "ip": "^1.1.5",
+    "redis": "^2.8.0",
+    "zipkin": "^0.13.0",
+    "zipkin-context-cls": "^0.13.0",
+    "zipkin-instrumentation-redis": "^0.13.0",
+    "zipkin-transport-http": "^0.13.0"
+  }
+}
